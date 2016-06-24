@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: WP For Android Application API
- * Plugin URI: http://www.thunderbeardesign.com/
- * Description: A Connection between your Android App and WordPress.
+ * Plugin Name: WP2ANDROID API
+ * Plugin URI: https://github.com/tottaz/WP2ANDROID
+ * Description: Build Android app and get your posts/categories from WordPress.
  * Version: 1.0
  * Author: Torbjorn Zetterlund
  * Author URI: http://www.torbjornzetterlund.com/

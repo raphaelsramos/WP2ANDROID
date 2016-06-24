@@ -243,16 +243,14 @@ class WP2ANDROID_Settings {
 				<ul>
 					<?php echo $return[1]; ?>
 				</ul>
-                
-                <div class="project-by"><a href="http://www.thunderbeardesign.com/" target="_blank"><img src="<?php echo plugins_url( 'images/project-by.png', WP2ANDROID_PLUGIN_FILE ); ?>" /></a></div>
-			</div>
+                			</div>
 			<div id="content">
 	        	<?php echo $return[0]; /* Settings */ ?>
 	        </div>
 	        <div class="clear"></div>
         </div>
         <div class="save_bar_top">
-        <img style="display:none" src="<?php echo plugins_url( 'images/loading-bottom.gif', WP2ANDROID_PLUGIN_FILE );?>" class="ajax-loading-img ajax-loading-img-bottom" alt="Working..." />
+        <img style="display:none" src="<?php echo plugins_url( 'img/loading-bottom.gif', WP2ANDROID_PLUGIN_FILE );?>" class="ajax-loading-img ajax-loading-img-bottom" alt="Working..." />
         <input type="hidden" name="wp2android_save" value="save" />
         <input type="submit" value="Save All Changes" class="button submit-button" />
         <input type="hidden" name="action" value="wp2android_ajax_post_action" />

@@ -1,4 +1,4 @@
-.wp2android_sprites, .smallicon {background:url(../images/framework.png) no-repeat 0 0;}
+.wp2android_sprites, .smallicon {background:url(../img/framework.png) no-repeat 0 0;}
 .smallicon {width:16px;height:16px;display:inline-block;margin-right:4px;position:relative;top:4px;}
 .smallicon.support {background-position:-334px 0;}
 .smallicon.docs {background-position:-334px -16px;}
@@ -35,7 +35,7 @@ background-image:linear-gradient(top,#f9f9f9,#ececec);
 
 #wp2android_container #main  { background-color: #f1f1f1; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; }
 #wp2android_container #main #content  { position: relative; margin-left: 189px; }
-#wp2android_container #wp2android-nav-shadow { width: 50px; position: absolute; top: 0; bottom: 0; right: 0; background: transparent url(../images/menu-shadow.png) repeat-y top right; width: 6px; z-index: 999;}
+#wp2android_container #wp2android-nav-shadow { width: 50px; position: absolute; top: 0; bottom: 0; right: 0; background: transparent url(../img/menu-shadow.png) repeat-y top right; width: 6px; z-index: 999;}
 #wp2android_container #wp2androidform  { position: relative; }
 #wp2android_container #wp2android-nav { float: left; position: absolute; top: 116px; bottom: 47px; z-index: 9999; width: 190px; }
 #wp2android_container.add #wp2androidform-content-builder #wp2android-nav, #wp2android_container.edit #wp2androidform-content-builder #wp2android-nav { top: 150px; }
@@ -273,7 +273,7 @@ body.js #wp2android_container #wp2android-nav li.open .flyout-menu { display: no
 
 #wp2android_container .screenshot .mlu_remove, #wp2android_container .typography-preview-container .preview_remove { 
 
-	background:url( "../images/ico-delete.png") no-repeat;
+	background:url( "../img/ico-delete.png") no-repeat;
 	border:medium none;
 	bottom:-4px;
 	display:block;
@@ -382,13 +382,13 @@ body.js #wp2android_container #wp2android-nav li.open .flyout-menu { display: no
 #wp2android_container .controls .wp2android-typography-face { width:100px; float:left}
 #wp2android_container .controls .wp2android-typography-style { width:80px; float:left}
 #wp2android_container .controls .wp2android-typography-preview-button { float: left; margin: 3px 0 0 5px; }
-#wp2android_container .controls .wp2android-typography-preview-button span { background: transparent url(../images/ico-preview.png) no-repeat center center; display: block; text-indent: -9999px; width: 14px; height: 16px; }
-#wp2android_container .controls .wp2android-typography-preview-button span.refresh { background-image: url(../images/ico-refresh.png); }
+#wp2android_container .controls .wp2android-typography-preview-button span { background: transparent url(../img/ico-preview.png) no-repeat center center; display: block; text-indent: -9999px; width: 14px; height: 16px; }
+#wp2android_container .controls .wp2android-typography-preview-button span.refresh { background-image: url(../img/ico-refresh.png); }
 #wp2android_container .typography-preview-container { clear: both; }
 #wp2android_container .typography-preview-container .preview_remove { position: relative; float: right; margin-bottom: -10px; margin-right: -10px; z-index: 99; }
 #wp2android_container .typography-preview { word-wrap: break-word; clear: both; padding: 20px; border: 1px solid #CCCCCC; background: #FDFDFD; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
 
-.wf-loading #wp2android_container .typography-preview.current { background: #FDFDFD url(../images/loading-bottom.gif) no-repeat 560px center; } /* Class is dynamically added to the "html" tag. */
+.wf-loading #wp2android_container .typography-preview.current { background: #FDFDFD url(../img/loading-bottom.gif) no-repeat 560px center; } /* Class is dynamically added to the "html" tag. */
 
 #wp2android_container .controls .wp2android-radio-img-img { border:3px solid #dedede; margin:0 5px 10px 0; display:none; cursor:pointer; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
 #wp2android_container .controls .wp2android-radio-img-selected { border:3px solid #aaa; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
@@ -446,8 +446,8 @@ body.js #wp2android_container #wp2android-nav li.open .flyout-menu { display: no
 
 #wp2android_container .wp2android-save-popup { position:absolute; -moz-border-radius:12px; background:rgba(0,0,0,0.4); color:#fff; font-size:24px; text-align:center; display:none; z-index: 10; }
 
-#wp2android_container .wp2android-save-save { background:url(../images/happy.png) 20px 50% no-repeat; padding:30px 30px 30px 70px}
-#wp2android_container .wp2android-save-reset { background:url(../images/warning.png) 20px 50% no-repeat; padding:30px 30px 30px 70px}
+#wp2android_container .wp2android-save-save { background:url(../img/happy.png) 20px 50% no-repeat; padding:30px 30px 30px 70px}
+#wp2android_container .wp2android-save-reset { background:url(../img/warning.png) 20px 50% no-repeat; padding:30px 30px 30px 70px}
 
 .upload_button_div { margin-bottom: 10px;}
 .upload_button_div .button { padding:4px 14px;
@@ -548,7 +548,7 @@ ul#wp2android-sbm-menu_ul li a span { color: #999; }
 #wp2android_container .wp2android-sbm-builder .nav-tabs-nav  { margin: 0 0 0 10px; }
 #wp2android_container .wp2android-sbm-builder .nav-tab  { background: #F4F4F4; font-size: 11px; border-bottom: 1px solid #ccc; }
 #wp2android_container .wp2android-sbm-builder .nav-tab-active  { font-weight: bold; background: #ececec; border-bottom: 1px solid #ececec; }
-#wp2android_container .wp2android-sbm-builder .builder-header  {padding: 10px; border: 1px solid #ccc; border-width: 1px 1px 0; background: url( "../images/gray-grad.png") repeat-x scroll left top #DFDFDF; border-top-right-radius: 6px; -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; border-top-left-radius: 6px; -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; }
+#wp2android_container .wp2android-sbm-builder .builder-header  {padding: 10px; border: 1px solid #ccc; border-width: 1px 1px 0; background: url( "../img/gray-grad.png") repeat-x scroll left top #DFDFDF; border-top-right-radius: 6px; -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; border-top-left-radius: 6px; -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; }
 #wp2android_container .wp2android-sbm-builder label { display: block; margin-bottom: 0px; padding: 5px 0; font-size: 12px}
 #wp2android_container .wp2android-sbm-builder label span { float:left; width: 130px; font-weight: 700; text-align: right; margin-right: 10px}
 #wp2android_container .wp2android-sbm-builder #wp2android-sbm-label-sb-name span  { padding-top: 5px; }
@@ -699,7 +699,7 @@ body.js .item-order {
 .item-controls .menu-item-delete:hover { color: #ff0000; }
 
 .item-edit {
-	background: url( "../../../../wp-admin/images/menu-bits.gif?ver=20100610") no-repeat scroll 0 -105px;
+	background: url( "../../../../wp-admin/img/menu-bits.gif?ver=20100610") no-repeat scroll 0 -105px;
 	position: absolute;
 	right: -20px;
 	top: 0;
@@ -828,37 +828,37 @@ body.js .item-order {
   margin-left: 10px;
   padding: 16px 0 0 9px;
 }
-#wp2android_container #wp2android-nav ul li.general span.icon { background-image:url(../images/option-icon-general.png); }
-#wp2android_container #wp2android-nav ul li.styling span.icon { background-image:url(../images/option-icon-styling.png); }
-#wp2android_container #wp2android-nav ul li.typography span.icon { background-image:url(../images/option-icon-typography.png); }
-#wp2android_container #wp2android-nav ul li.image span.icon { background-image:url(../images/option-icon-image.png); }
-#wp2android_container #wp2android-nav ul li.ads span.icon { background-image:url(../images/option-icon-ads.png); }
-#wp2android_container #wp2android-nav ul li.homepage span.icon { background-image:url(../images/option-icon-homepage.png); }
-#wp2android_container #wp2android-nav ul li.wp2androidcommerce span.icon { background-image:url(../images/option-icon-wp2androidcommerce.png); }
-#wp2android_container #wp2android-nav ul li.media span.icon { background-image:url(../images/option-icon-media.png); }
-#wp2android_container #wp2android-nav ul li.calendar span.icon { background-image:url(../images/option-icon-calendar.png); }
-#wp2android_container #wp2android-nav ul li.slider span.icon { background-image:url(../images/option-icon-slider.png); }
-#wp2android_container #wp2android-nav ul li.box span.icon { background-image:url(../images/option-icon-box.png); }
-#wp2android_container #wp2android-nav ul li.layout span.icon { background-image:url(../images/option-icon-layout.png); }
-#wp2android_container #wp2android-nav ul li.header span.icon { background-image:url(../images/option-icon-header.png); }
-#wp2android_container #wp2android-nav ul li.featured span.icon { background-image:url(../images/option-icon-featured.png); }
-#wp2android_container #wp2android-nav ul li.main span.icon { background-image:url(../images/option-icon-main.png); }
-#wp2android_container #wp2android-nav ul li.sidebar span.icon { background-image:url(../images/option-icon-sidebar.png); }
-#wp2android_container #wp2android-nav ul li.footer span.icon { background-image:url(../images/option-icon-footer.png); }
-#wp2android_container #wp2android-nav ul li.portfolio span.icon { background-image:url(../images/option-icon-portfolio.png); }
-#wp2android_container #wp2android-nav ul li.tumblog span.icon { background-image:url(../images/option-icon-tumblog.png); }
-#wp2android_container #wp2android-nav ul li.nav span.icon { background-image:url(../images/option-icon-nav.png); }
-#wp2android_container #wp2android-nav ul li.audio span.icon { background-image:url(../images/option-icon-audio.png); }
-#wp2android_container #wp2android-nav ul li.misc span.icon { background-image:url(../images/option-icon-misc.png); }
-#wp2android_container #wp2android-nav ul li.maps span.icon { background-image:url(../images/option-icon-maps.png); }
-#wp2android_container #wp2android-nav ul li.searchoption span.icon { background-image:url(../images/option-icon-search.png); }
-#wp2android_container #wp2android-nav ul li.upload span.icon { background-image:url(../images/option-icon-upload.png); }
-#wp2android_container #wp2android-nav ul li.favorite span.icon { background-image:url(../images/option-icon-favorite.png); }
-#wp2android_container #wp2android-nav ul li.listing span.icon { background-image:url(../images/option-icon-listing.png); }
-#wp2android_container #wp2android-nav ul li.post span.icon { background-image:url(../images/option-icon-post.png); }
-#wp2android_container #wp2android-nav ul li.connect span.icon { background-image:url(../images/option-icon-connect.png); }
-#wp2android_container #wp2android-nav ul li.wpsc_presentation span.icon { background-image:url(../images/option-icon-cart.png); }
-#wp2android_container #wp2android-nav ul li.presstrends span.icon { background-image:url(../images/option-icon-presstrends.png); }
+#wp2android_container #wp2android-nav ul li.general span.icon { background-image:url(../img/option-icon-general.png); }
+#wp2android_container #wp2android-nav ul li.styling span.icon { background-image:url(../img/option-icon-styling.png); }
+#wp2android_container #wp2android-nav ul li.typography span.icon { background-image:url(../img/option-icon-typography.png); }
+#wp2android_container #wp2android-nav ul li.image span.icon { background-image:url(../img/option-icon-image.png); }
+#wp2android_container #wp2android-nav ul li.ads span.icon { background-image:url(../img/option-icon-ads.png); }
+#wp2android_container #wp2android-nav ul li.homepage span.icon { background-image:url(../img/option-icon-homepage.png); }
+#wp2android_container #wp2android-nav ul li.wp2androidcommerce span.icon { background-image:url(../img/option-icon-wp2androidcommerce.png); }
+#wp2android_container #wp2android-nav ul li.media span.icon { background-image:url(../img/option-icon-media.png); }
+#wp2android_container #wp2android-nav ul li.calendar span.icon { background-image:url(../img/option-icon-calendar.png); }
+#wp2android_container #wp2android-nav ul li.slider span.icon { background-image:url(../img/option-icon-slider.png); }
+#wp2android_container #wp2android-nav ul li.box span.icon { background-image:url(../img/option-icon-box.png); }
+#wp2android_container #wp2android-nav ul li.layout span.icon { background-image:url(../img/option-icon-layout.png); }
+#wp2android_container #wp2android-nav ul li.header span.icon { background-image:url(../img/option-icon-header.png); }
+#wp2android_container #wp2android-nav ul li.featured span.icon { background-image:url(../img/option-icon-featured.png); }
+#wp2android_container #wp2android-nav ul li.main span.icon { background-image:url(../img/option-icon-main.png); }
+#wp2android_container #wp2android-nav ul li.sidebar span.icon { background-image:url(../img/option-icon-sidebar.png); }
+#wp2android_container #wp2android-nav ul li.footer span.icon { background-image:url(../img/option-icon-footer.png); }
+#wp2android_container #wp2android-nav ul li.portfolio span.icon { background-image:url(../img/option-icon-portfolio.png); }
+#wp2android_container #wp2android-nav ul li.tumblog span.icon { background-image:url(../img/option-icon-tumblog.png); }
+#wp2android_container #wp2android-nav ul li.nav span.icon { background-image:url(../img/option-icon-nav.png); }
+#wp2android_container #wp2android-nav ul li.audio span.icon { background-image:url(../img/option-icon-audio.png); }
+#wp2android_container #wp2android-nav ul li.misc span.icon { background-image:url(../img/option-icon-misc.png); }
+#wp2android_container #wp2android-nav ul li.maps span.icon { background-image:url(../img/option-icon-maps.png); }
+#wp2android_container #wp2android-nav ul li.searchoption span.icon { background-image:url(../img/option-icon-search.png); }
+#wp2android_container #wp2android-nav ul li.upload span.icon { background-image:url(../img/option-icon-upload.png); }
+#wp2android_container #wp2android-nav ul li.favorite span.icon { background-image:url(../img/option-icon-favorite.png); }
+#wp2android_container #wp2android-nav ul li.listing span.icon { background-image:url(../img/option-icon-listing.png); }
+#wp2android_container #wp2android-nav ul li.post span.icon { background-image:url(../img/option-icon-post.png); }
+#wp2android_container #wp2android-nav ul li.connect span.icon { background-image:url(../img/option-icon-connect.png); }
+#wp2android_container #wp2android-nav ul li.wpsc_presentation span.icon { background-image:url(../img/option-icon-cart.png); }
+#wp2android_container #wp2android-nav ul li.presstrends span.icon { background-image:url(../img/option-icon-presstrends.png); }
 
 
 
